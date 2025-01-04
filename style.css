@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: outfit;
+}
+
+body {
+    background: rgb(0, 0, 0.4);
+  
+}
+
+nav {
+    background: black;
+}
+
+
+nav img {
+    width: 30px;
+}
+
+#nav-frame-heading {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-li a {
+    color: rgba(245, 245, 245, 0.595);
+    font-weight: 500;
+}
+
+.nav-li a:hover {
+    color: white;
+}
+
+#login-button {
+    border: none;
+    background-color: black;
+    color: grey;
+    margin: 0px 10px;
+    font-weight: 500;
+}
+
+#signup-button {
+    background-color: white;
+    border: 40px;
+    padding: 3px 6px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+
+.heading-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.heading-section-left {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin: 130px;
+
+
+
+}
+
+.heading-section-left h1 {
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+.heading-section-left p {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.heading-section-left div {
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.heading-section-right video {
+    width: 73%;
+    position: absolute;
+    right: 0;
+    box-shadow: inset 0px 0px 2000px;
+
+}
+
+#start-for-free {
+    background-color: white;
+    border: 40px;
+    padding: 5px 12px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+#watch-video {
+    background-color: white;
+    border: 40px;
+    padding: 5px 12px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.animation-slide {
+    display: flex;
+    margin: 20px 80px;
+    margin-top: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.slide-images {
+    display: flex;
+    animation: slide 35s linear infinite;
+    background-color: rgba(0, 0, 0, 0.804);
+    box-shadow: 0px 0px 30px;
+    cursor: pointer;
+
+}
+
+.slide-images p {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin: 0px 20px;
+}
+
+.animation-hover-div {
+    position: absolute;
+    top: 670px;
+    width: 100%;
+    background-color: rgba(3, 3, 3, 0.885);
+    height: 80px;
+    left: -1400px;
+    transition: 1s;
+}
+
+
+.animation-hover-div h1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    padding: 4px;
+
+}
+
+.animation-slide:hover .animation-hover-div {
+    left: 0px;
+}
+
+
+#Design-responsive {
+    margin-top: 100px;
+    text-align: center;
+    color: grey;
+    animation-name: textAni;
+    animation-timeline: view();
+    margin-bottom: 100px;
+}
+
+
+.frame-animation-first-div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 150px;
+    margin-top: 180px;
+    margin-bottom: 70px;
+    background-color: rgb(33, 30, 30);
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.3),
+        /* Shadow on the right */
+        -5px 0 15px rgba(0, 0, 0, 0.3),
+        /* Shadow on the left */
+        0 5px 15px rgba(0, 0, 0, 0.3),
+        /* Shadow on the bottom */
+        0 -5px 12px rgba(30, 143, 255, 0.947)
+        /* Blue shadow on top */
+    ;
+    height: 600px;
+    animation-name: slide-top;
+    animation-timeline: view()
+}
+
+.frame-back-nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(26, 23, 23);
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+    padding: 4px;
+}
+
+.frame-back-nav div:nth-child(1) {
+    display: flex;
+    gap: 10px;
+}
+
+.frame-back-nav div p {
+    margin-top: 10px;
+}
+
+.frame-back-nav div p i {
+    margin: 0px 10px;
+}
+
+.frame-back-nav div h6 {
+    font-weight: bold;
+}
+
+.frame-back-nav div i {
+    margin: 0px 7px;
+}
+
+.frame-back-nav div button {
+    margin: 10px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.673);
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.frame-main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.frame-main-img img {
+    width: 650px;
+
+}
+
+.frame-paragrap-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+    margin-top: -30px;
+    background-color: rgba(9, 8, 8, 0.844);
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect */
+    box-shadow: 0px 0px 10px black;
+    z-index: 1;
+
+}
+
+.frame-paragrap-div p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.frame-images-animation-div {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.frame-images-animation-div div {
+    margin-top: -450px;
+    animation-name: slide-top;
+    animation-timeline: view();
+}
+
+.frame-images-animation-div img {
+    width: 250px;
+    height: 550px;
+}
+
+.frame-button {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0px 100px;
+    margin-top: -400px;
+}
+
+.frame-button div {
+    display: flex;
+    gap: 10px;
+}
+
+.frame-button div i {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 20px;
+    padding: 3px 10px;
+    height: 27px;
+    animation-name: animate-i;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    box-shadow: 0px 0px 5px dodgerblue;
+    margin-top: -30px;
+}
+
+.frame-button div button {
+    background-color: dodgerblue;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border: none;
+    animation-name: animate-button;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    box-shadow: 0px 0px 5px dodgerblue;
+}
+
+
+
+
+
+.images-middle-parent{
+    display: flex;
+    flex-direction: column;
+    
+
+   
+}
+
+.first-section-img{
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+
+
+
+.text-content-first-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 40px;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    z-index: 1;
+    background-color: black;
+    box-shadow: 0px 0px 20px 50px black;
+    
+}
+.text-content-first-section h6{
+  color: dodgerblue;
+}
+
+.text-content-first-section h1{
+    color: white;
+  }
+
+  .text-content-first-section p{
+    color: rgba(128, 128, 128, 0.867);
+    font-weight: 400;
+  }
+
+  .text-content-first-section p{
+    color: rgba(128, 128, 128, 0.867);
+    font-weight: 400;
+  }
+  .text-content-first-section button{
+    background-color: rgba(33, 31, 31, 0.633);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 240px;
+    
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1170px) {
+    .frame-animation-first-div {
+        margin: 20px 30px;
+    }
+
+
+
+    .frame-button {
+        display: flex;
+        justify-content: space-around;
+
+        margin: 0px 120px;
+        margin-top: -490px;
+    }
+
+    .frame-images-animation-div img {
+        width: 200px;
+        height: 550px;
+    }
+
+}
+
+
+
+@media screen and (max-width:930px) {
+    .frame-images-animation-div {
+        display: none;
+    }
+
+    .frame-button {
+       margin: 0px 10px;
+       margin-top: -400px;
+    }
+
+    .frame-main-img img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:735px) {
+    .frame-paragrap-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 30px;
+        color: white;
+        margin-top: 30px;
+        background-color: rgba(9, 8, 8, 0.844);
+        backdrop-filter: blur(10px);
+        /* Apply a blur effect */
+        box-shadow: 0px 0px 10px black;
+        z-index: 1;
+
+    }
+
+    .frame-paragrap-div div p {
+        text-align: left;
+        font-weight: 400;
+    }
+
+    .frame-back-nav div p {
+        font-size: 10px;
+
+    }
+
+    .frame-back-nav div i {
+        font-size: 10px;
+
+    }
+
+    .frame-back-nav div button {
+        padding: 6px;
+
+
+    }
+
+}
+
+@media screen and (max-width:655px) {
+
+.frame-back-nav div:nth-child(1){
+display: none;
+}
+.frame-button{
+display: none;
+
+}
+}
+
+
+@keyframes animate-i {
+    from {
+        transform: translateY(0%);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+
+
+@keyframes animate-button {
+    from {
+        transform: translateY(0%);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes slide-top {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-30%);
+    }
+}
+
+
+
+@keyframes textAni {
+    from {
+        color: grey;
+
+    }
+
+    to {
+
+        color: white;
+    }
+}
+
+
+
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+
+}
+
+
+
+
+@media screen and (max-width:968px) {
+    .heading-section {
+        margin: 30px;
+        flex-direction: column;
+    }
+
+    .heading-section-left {
+        margin: 60px 0px;
+    }
+
+    .heading-section-right video {
+        position: relative;
+        width: 100%;
+    }
+
+    .heading-section-left h1 {
+        font-size: 50px;
+    }
+
+    .heading-section-left p {
+        font-size: 20px;
+    }
+
+    .animation-hover-div {
+        top: 950px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:883px) {
+    .animation-hover-div {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:706px) {
+    .animation-slide {
+        margin: 20px 30px;
+    }
+}
+
+@media screen and (max-width:489px) {
+    .middle-animation {
+        margin: 30px 30px;
+    }
+
+    .middle-animation div img {
+        width: 60px;
+    }
+
+    .slide-images p {
+        font-size: 15px;
+    }
+}
+
+
+<<<<<<< HEAD
+@media screen and (max-width:468px) {
+    .heading-section {
+        margin: 30px;
+        flex-direction: column;
+    }
+
+    .heading-section-left {
+        margin: 60px 0px;
+    }
+
+    .heading-section-right video {
+        position: relative;
+        width: 100%;
+    }
+
+    .heading-section-left h1 {
+        font-size: 40px;
+    }
+
+    .heading-section-left p {
+        font-size: 15px;
+    }
+}
+=======
+>>>>>>> f30520cc77d5697326d1a53aea32decf38fe4ee6
